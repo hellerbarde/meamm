@@ -1,0 +1,4 @@
+what programming language will meamm be written in?
+
+i see you're going straight for the interesting part there. well, as meamm will most likely be heavyly dependant on imdbpy it makes sense writing meamm in python as is imdbpy. also meamm will have to use a imdbpy compatible version of python, which at this moment means python < 2.6 and >= 2.4. which kind of sucks as python 3.0 is here and i would like to get going with that newest version. but never mind me, i do not know anything about python (yet). i do, however, have lots of movies so i clearly see the motivation there to get cracking.
+
