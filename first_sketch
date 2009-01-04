@@ -8,7 +8,6 @@ write a piece of software including but not limited to the following features:
 
 	metadata management
 		maintain a list of one's movie collection including all desired metadata, possibly imported from imdb or similar (that is what all the others do)
-		include support for a shopping list, work together with torrentz.com and rtorrent in "going shopping"
 		find trailers on youtube
 		logging which films are watched when, support for rating and commenting movie to be uploaded to imdb account or similar
 	file management
