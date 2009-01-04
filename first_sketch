@@ -1,0 +1,21 @@
+movie experience and metadata manager - meamm
+
+problem:
+there are plenty of "movie managers", "movie browsers" and "video collection managers" out there. however, despite of their name, all the programs i've seen so far do no such thing - they are all merely movie metadata managers. all these programs out there can do is keep you well-informed about the movies you have, they do not help you manage anything but data within besaid programs. i need a program capable of actually helping me with my home cinema experience.
+
+discussion:
+write a piece of software including but not limited to the following features:
+
+	metadata management
+		maintain a list of one's movie collection including all desired metadata, possibly imported from imdb or similar (that is what all the others do)
+		include support for a shopping list, work together with torrentz.com and rtorrent in "going shopping"
+		find trailers on youtube
+		logging which films are watched when, support for rating and commenting movie to be uploaded to imdb account or similar
+	file management
+		automate keeping database up to date with respect to present film files
+		work together with rtorrent in adding new movies to database
+		move and or rename files with the usage of metadata
+		synchronise movie collection (partially) between different storage media/computers
+		getting trailers and/or subtitles
+	home cinema management
+		support for location profiles including settings for external software such as x (a specific xorg.conf file) or vlc (what screen to use for fullscreen)
