@@ -7,6 +7,8 @@ searchterm = sys.argv[1]
 
 film_list = []
 
+print("attention, this will generate a lot of output!")
+
 i = imdb.IMDb()
 # movie_list is a list of Movie objects, with only attributes like 'title'
 # and 'year' defined.
@@ -29,7 +31,7 @@ i.update(first_match, 'trivia')
 print("print (first_match['trivia'])")
 
 print (first_match['trivia'])
-exit()
+
 # retrieve both 'quotes' and 'goofs' information (with a list or tuple)
 i.update(first_match, ['quotes', 'goofs'])
 print (first_match['quotes'])
