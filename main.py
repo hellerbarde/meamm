@@ -26,11 +26,13 @@ print (first_match.summary())
 
 # retrieve trivia information and print it.
 i.update(first_match, 'trivia')
-print (m['trivia'])
+print("print (first_match['trivia'])")
 
+print (first_match['trivia'])
+exit()
 # retrieve both 'quotes' and 'goofs' information (with a list or tuple)
-i.update(m, ['quotes', 'goofs'])
-print (m['quotes'])
-print (m['goofs'])
+i.update(first_match, ['quotes', 'goofs'])
+print (first_match['quotes'])
+print (first_match['goofs'])
 # retrieve every available information.
-i.update(m, 'all')
+i.update(first_match, 'all')
