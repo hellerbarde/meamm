@@ -1,0 +1,12 @@
+I will try and roughly describe what the CLI will do and what it will consist of. the first milestone of meamm will be to provide a backend for the connection to the imdb. 
+The CLI will be the first front end to that backend and will operate something like this:
+
+> search <movie title> 
+
+This will provide a list of all the Movies that matched your query and a corresponding number in case you want to have further information about this movie. If you don't, just continue and the numbers along with the corresponding data will be discarded again. 
+
+> info <IMDb movie ID> or <movie title>
+
+This will probably not be of much use as one usually does not know the IMDb movie id off the top of your head. The second variation though is similar to Google's "I'm feeling lucky" button and will search with the same search algorithm as the keyword "search" does and simply use the best match.
+
+to be continued... 
